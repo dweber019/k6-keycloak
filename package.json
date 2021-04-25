@@ -1,0 +1,27 @@
+{
+  "name": "k6-keycloak",
+  "version": "1.0.0",
+  "description": "Third party for k6",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "env": "dotenv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dweber019/k6-keycloak.git"
+  },
+  "keywords": [
+    "k6",
+    "load",
+    "testing"
+  ],
+  "author": "David Weber",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv-cli": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/k6": "^0.31.0"
+  }
+}
